@@ -1,0 +1,8 @@
+Segments
+#	 { +word_boundary, 0stress, 0main, 0heavy, }
+L2	 { -word_boundary, +stress, -main, -heavy, }
+L1	 { -word_boundary, +stress, +main, -heavy, }
+H0	 { -word_boundary, -stress, -main, +heavy, }
+H2	 { -word_boundary, +stress, -main, +heavy, }
+H1	 { -word_boundary, +stress, +main, +heavy, }
+L0	 { -word_boundary, -stress, -main, -heavy, }

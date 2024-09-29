@@ -1,0 +1,9 @@
+*[+word_boundary][+word_boundary]	(tier=Main)	3.15
+*[+main][-word_boundary]	(tier=Stress)	4.101
+*[-stress,+heavy]	(tier=default)	6.9
+*[+word_boundary][-stress]	(tier=default)	6.069
+*[-word_boundary][+stress,-heavy]	(tier=default)	7.11
+*[-main][+word_boundary]	(tier=Stress)	4.012
+*[-word_boundary][-word_boundary]	(tier=Main)	3.19
+*[+main][^-stress,-heavy]	(tier=default)	1.607
+*[-main,+heavy][^+main,+heavy][+word_boundary]	(tier=default)	1.326

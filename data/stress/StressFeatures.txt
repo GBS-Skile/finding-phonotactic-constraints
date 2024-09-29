@@ -1,0 +1,7 @@
+	heavy	stress	main
+L0	-	-	-
+L2	-	+	-
+L1	-	+	+
+H0	+	-	-
+H2	+	+	-
+H1	+	+	+

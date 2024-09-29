@@ -1,0 +1,62 @@
+L1	testing datum
+H1	testing datum
+L1 L0	testing datum
+L2 H1	testing datum
+H1 L0	testing datum
+H2 H1	testing datum
+L1 L0 L0	testing datum
+H1 L0 L0	testing datum
+L2 H1 L0	testing datum
+L2 L0 H1	testing datum
+H2 H1 L0	testing datum
+L2 H2 H1	testing datum
+H2 L0 H1	testing datum
+H2 H2 H1	testing datum
+L1 L0 L0 L0	testing datum
+H1 L0 L0 L0	testing datum
+L2 H1 L0 L0	testing datum
+L2 L0 H1 L0	testing datum
+L2 L0 L0 H1	testing datum
+H2 H1 L0 L0	testing datum
+L2 H2 H1 L0	testing datum
+L2 L0 H2 H1	testing datum
+H2 L0 H1 L0	testing datum
+L2 H2 L0 H1	testing datum
+H2 L0 L0 H1	testing datum
+H2 H2 H1 L0	testing datum
+L2 H2 H2 H1	testing datum
+H2 L0 H2 H1	testing datum
+H2 H2 L0 H1	testing datum
+H2 H2 H2 H1	testing datum
+L1 L0 L0 L0 L0	testing datum
+H1 L0 L0 L0 L0	testing datum
+L2 H1 L0 L0 L0	testing datum
+L2 L0 H1 L0 L0	testing datum
+L2 L0 L0 H1 L0	testing datum
+L2 L0 L0 L0 H1	testing datum
+H2 H1 L0 L0 L0	testing datum
+L2 H2 H1 L0 L0	testing datum
+L2 L0 H2 H1 L0	testing datum
+L2 L0 L0 H2 H1	testing datum
+H2 L0 H1 L0 L0	testing datum
+H2 L0 L0 H1 L0	testing datum
+H2 L0 L0 L0 H1	testing datum
+L2 H2 L0 H1 L0	testing datum
+L2 H2 L0 L0 H1	testing datum
+L2 L0 H2 L0 H1	testing datum
+H2 H2 H1 L0 L0	testing datum
+L2 H2 H2 H1 L0	testing datum
+L2 H2 H2 L0 H1	testing datum
+L2 L0 H2 H2 H1	testing datum
+H2 L0 H2 H1 L0	testing datum
+H2 L0 L0 H2 H1	testing datum
+H2 L0 H2 L0 H1	testing datum
+L2 H2 L0 H2 H1	testing datum
+H2 H2 H2 H1 L0	testing datum
+L2 H2 H2 H2 H1	testing datum
+H2 L0 H2 H2 H1	testing datum
+H2 H2 L0 H2 H1	testing datum
+H2 H2 L0 H1 L0	testing datum
+H2 H2 L0 L0 H1	testing datum
+H2 H2 H2 L0 H1	testing datum
+H2 H2 H2 H2 H1	testing datum

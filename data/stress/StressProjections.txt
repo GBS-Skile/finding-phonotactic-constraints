@@ -1,0 +1,2 @@
+Main  +main : word_boundary  Grams: 4
+Stress  +stress : main, word_boundary  Grams: 4

@@ -1,0 +1,26 @@
+Segments
+#	 { +word_boundary, 0approximant, 0sonorant, 0continuant, 0nasal, 0voice, 0spread, 0labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, 0high, 0back, 0consonantal, }
+CH	 { -word_boundary, -approximant, -sonorant, -continuant, 0nasal, -voice, 0spread, 0labial, +coronal, -anterior, +strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+D	 { -word_boundary, -approximant, -sonorant, -continuant, 0nasal, +voice, 0spread, 0labial, +coronal, +anterior, -strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+DH	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, +voice, 0spread, 0labial, +coronal, +anterior, -strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+F	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, -voice, 0spread, +labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+G	 { -word_boundary, -approximant, -sonorant, -continuant, 0nasal, +voice, 0spread, 0labial, 0coronal, 0anterior, 0strident, 0lateral, +dorsal, 0high, 0back, +consonantal, }
+JH	 { -word_boundary, -approximant, -sonorant, -continuant, 0nasal, +voice, 0spread, 0labial, +coronal, -anterior, +strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+K	 { -word_boundary, -approximant, -sonorant, -continuant, 0nasal, -voice, 0spread, 0labial, 0coronal, 0anterior, 0strident, 0lateral, +dorsal, 0high, 0back, +consonantal, }
+P	 { -word_boundary, -approximant, -sonorant, -continuant, 0nasal, -voice, 0spread, +labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+S	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, -voice, 0spread, 0labial, +coronal, +anterior, +strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+SH	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, -voice, 0spread, 0labial, +coronal, -anterior, +strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+T	 { -word_boundary, -approximant, -sonorant, -continuant, 0nasal, -voice, 0spread, 0labial, +coronal, +anterior, -strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+TH	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, -voice, 0spread, 0labial, +coronal, +anterior, -strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+V	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, +voice, 0spread, +labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+Z	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, +voice, 0spread, 0labial, +coronal, +anterior, +strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+ZH	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, +voice, 0spread, 0labial, +coronal, -anterior, +strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+HH	 { -word_boundary, -approximant, -sonorant, +continuant, 0nasal, -voice, +spread, 0labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+M	 { -word_boundary, -approximant, +sonorant, 0continuant, +nasal, 0voice, 0spread, +labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+N	 { -word_boundary, -approximant, +sonorant, 0continuant, +nasal, 0voice, 0spread, 0labial, +coronal, +anterior, -strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }
+NG	 { -word_boundary, -approximant, +sonorant, 0continuant, +nasal, 0voice, 0spread, 0labial, 0coronal, 0anterior, 0strident, 0lateral, +dorsal, 0high, 0back, +consonantal, }
+L	 { -word_boundary, +approximant, +sonorant, 0continuant, 0nasal, 0voice, 0spread, 0labial, +coronal, +anterior, -strident, +lateral, 0dorsal, 0high, 0back, +consonantal, }
+R	 { -word_boundary, +approximant, +sonorant, 0continuant, 0nasal, 0voice, 0spread, 0labial, +coronal, -anterior, -strident, 0lateral, 0dorsal, 0high, 0back, -consonantal, }
+W	 { -word_boundary, +approximant, +sonorant, 0continuant, 0nasal, 0voice, 0spread, +labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, +high, +back, -consonantal, }
+Y	 { -word_boundary, +approximant, +sonorant, 0continuant, 0nasal, 0voice, 0spread, 0labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, +high, -back, -consonantal, }
+B	 { -word_boundary, -approximant, -sonorant, -continuant, 0nasal, +voice, 0spread, +labial, 0coronal, 0anterior, 0strident, 0lateral, 0dorsal, 0high, 0back, +consonantal, }

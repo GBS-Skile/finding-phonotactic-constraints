@@ -1,0 +1,2 @@
+Main +main : word_boundary
+Stress +stress : main, word_boundary

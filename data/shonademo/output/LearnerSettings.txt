@@ -1,0 +1,21 @@
+; This file is a record of the settings for a run of the phonotactic learning program, indicating time of run and the settings that were used.
+; Where a field is left blank, it means that the default setting for the program was used (see manual).
+; 
+; Location of the input files:  /Users/skile/AdvPho/NLM/data/shonademo
+; Time and date that the program ran:  Mon May 13 23:37:29 KST 2024
+
+Task 0
+FeatureFile Features.txt
+LearningFile LearningData.txt
+TestFile TestingData.txt
+ProjectionsFile Projections.txt
+NGramConstraints TrigramLimitation.txt
+UserConstraints 
+MaxConstraints 30
+Sigma2 
+LearningSampleSize 
+MaxGramSize 3
+MaxOE 0.35
+Smoothing 
+MaxPath 
+AllowComplements true
