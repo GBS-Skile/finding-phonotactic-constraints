@@ -1,3 +1,4 @@
+import re
 from dataclasses import dataclass
 from typing import List, Tuple
 
@@ -26,9 +27,13 @@ class Constraint:
         return result
 
 
-if __name__ == "__main__":
-    # *[^-voice,+anterior,+strident][-approximant]
-    print(Constraint([
-        NaturalClass([("voice", "-"), ("anterior", "+"), ("strident", "+")], complement=True),
-        NaturalClass([("approximant", "-")])
-    ]))
+def parse_constraint(query: str) -> Constraint:
+    assert query[0] == '*'
+    sequence = []
+    for m in re.finditer(r"\[(\^?)(.+?)\]", query[1:]):
+        entries = []
+        complement = m.group(1) == '^'
+        for pair in m.group(2).split(','):
+            entries.append((pair[1:], pair[0]))
+        sequence.append(NaturalClass(entries, complement))
+    return Constraint(sequence)
