@@ -1,30 +1,31 @@
-import csv
-from dataclasses import dataclass
-from typing import Dict, List
+from typing import Optional
 
+import pandas as pd
 
-@dataclass
 class FeatureSystem:
-    _features: List[str]
-    _phonemes: Dict[str, List[str]]
+    def __init__(self, path, *, word_boundary: Optional[str]=None):
+        """
+        :param word_boundary: If set, add special token for word_boundary.
+        """
+        self._data = pd.read_table(path, sep="\t", index_col=0, header=0)
+        if word_boundary:
+            self._data = _add_word_boundary(self._data, word_boundary, "word_boundary")
 
     def get_phonemes(self):
-        return list(self._phonemes.keys())
+        return list(self._data.index)
 
 
-def load_feature_system(fp) -> FeatureSystem:
-    reader = csv.reader(fp, delimiter='\t')
-
-    features = next(reader)[1:]  # skip first column
-    phonemes = {}
-    for row in reader:
-        phonemes[row[0]] = row[1:]
-
-    return FeatureSystem(features, phonemes)
-
-
-if __name__ == "__main__":
-    with open("data/englishonset/EnglishFeatures.txt") as f:
-        fs = load_feature_system(f)
-
-        # TODO: add segment feature
+def _add_word_boundary(df: pd.DataFrame, phoneme: str, feature: str) -> pd.DataFrame:
+    wb_row = pd.Series(
+        ["0"] * len(df.columns) + ["+"],
+        index=list(df.columns) + [feature],
+        name=phoneme
+    )
+    wb_column = pd.Series(["-"] * len(df.index), index=df.index, name=feature)
+    return pd.concat(
+        [
+            pd.concat([df, wb_column], axis=1),
+            wb_row.to_frame().T
+        ],
+        axis=0
+    )
