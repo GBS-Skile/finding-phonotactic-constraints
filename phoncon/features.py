@@ -5,8 +5,11 @@ from typing import Dict, List
 
 @dataclass
 class FeatureSystem:
-    features: List[str]
-    phonemes: Dict[str, List[str]]
+    _features: List[str]
+    _phonemes: Dict[str, List[str]]
+
+    def get_phonemes(self):
+        return list(self._phonemes.keys())
 
 
 def load_feature_system(fp) -> FeatureSystem:
